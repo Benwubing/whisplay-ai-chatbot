@@ -1,0 +1,753 @@
+{
+  "characters": {
+    "Zara Nightwhisper": {
+      "name": "Zara Nightwhisper",
+      "race": "Half-Elf",
+      "class_name": "Rogue",
+      "level": 1,
+      "background": "Urchin",
+      "player_name": "",
+      "strength": 12,
+      "dexterity": 15,
+      "constitution": 14,
+      "intelligence": 17,
+      "wisdom": 10,
+      "charisma": 11,
+      "proficiency_bonus": 2,
+      "is_proficient": {},
+      "expertise": [],
+      "max_hp": 10,
+      "current_hp": 10,
+      "armor_class": 12,
+      "initiative": 2.2,
+      "speed": 30,
+      "hit_dice": "d8",
+      "spell_slots": {},
+      "sorcery_points": 0,
+      "ki_points": 0,
+      "rages": 0,
+      "rages_per_long_rest": 0,
+      "conditions": [],
+      "temporary_hp": 0,
+      "is_concentrating": false,
+      "inventory": [],
+      "gold": 0.0,
+      "equipment": [],
+      "skill_profs": [],
+      "tool_profs": [],
+      "languages": [],
+      "appearance": "",
+      "backstory": "",
+      "personality_traits": "",
+      "ideals": "",
+      "bonds": "",
+      "flaws": ""
+    },
+    "Thrain Ironforge": {
+      "name": "Thrain Ironforge",
+      "race": "Dwarf",
+      "class_name": "Cleric",
+      "level": 1,
+      "background": "Acolyte",
+      "player_name": "",
+      "strength": 9,
+      "dexterity": 8,
+      "constitution": 12,
+      "intelligence": 7,
+      "wisdom": 10,
+      "charisma": 12,
+      "proficiency_bonus": 2,
+      "is_proficient": {},
+      "expertise": [],
+      "max_hp": 9,
+      "current_hp": 9,
+      "armor_class": 9,
+      "initiative": -0.8,
+      "speed": 30,
+      "hit_dice": "d8",
+      "spell_slots": {},
+      "sorcery_points": 0,
+      "ki_points": 0,
+      "rages": 0,
+      "rages_per_long_rest": 0,
+      "conditions": [],
+      "temporary_hp": 0,
+      "is_concentrating": false,
+      "inventory": [],
+      "gold": 0.0,
+      "equipment": [],
+      "skill_profs": [],
+      "tool_profs": [],
+      "languages": [],
+      "appearance": "",
+      "backstory": "",
+      "personality_traits": "",
+      "ideals": "",
+      "bonds": "",
+      "flaws": ""
+    }
+  },
+  "history": [
+    {
+      "timestamp": "2026-08-07T14:07:26.260635",
+      "action": "roll_ability_scores",
+      "details": {
+        "method": "4d6_drop_lowest",
+        "scores": {
+          "STR": 12,
+          "DEX": 12,
+          "CON": 9,
+          "INT": 11,
+          "WIS": 14,
+          "CHA": 15
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:07:33.093772",
+      "action": "roll_ability_scores",
+      "details": {
+        "method": "4d6_drop_lowest",
+        "scores": {
+          "STR": 14,
+          "DEX": 10,
+          "CON": 11,
+          "INT": 9,
+          "WIS": 12,
+          "CHA": 15
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:07:33.095280",
+      "action": "create_character",
+      "details": {
+        "name": "Thrain",
+        "class": "Fighter",
+        "race": "Dwarf"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:08:21.905897",
+      "action": "roll_ability_scores",
+      "details": {
+        "method": "4d6_drop_lowest",
+        "scores": {
+          "STR": 8,
+          "DEX": 10,
+          "CON": 16,
+          "INT": 10,
+          "WIS": 12,
+          "CHA": 12
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:09:31.233903",
+      "action": "roll_ability_scores",
+      "details": {
+        "method": "4d6_drop_lowest",
+        "scores": {
+          "STR": 15,
+          "DEX": 13,
+          "CON": 10,
+          "INT": 7,
+          "WIS": 12,
+          "CHA": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:09:31.234975",
+      "action": "create_character",
+      "details": {
+        "name": "Zara",
+        "class": "Warlock",
+        "race": "Half-Elf"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:09:31.236001",
+      "action": "ability_check",
+      "details": {
+        "character": "Zara",
+        "ability": "CHA",
+        "skill": "persuasion",
+        "roll": 20,
+        "natural": 20,
+        "modifier": 2,
+        "total": 22,
+        "is_advantage": true,
+        "is_disadvantage": false,
+        "is_critical": true,
+        "is_critical_failure": false,
+        "breakdown": "d20 (20) + 2 = 22"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:09:31.237026",
+      "action": "saving_throw",
+      "details": {
+        "roll": 6,
+        "rolls": [
+          6
+        ],
+        "ability": "wis",
+        "modifier": 1,
+        "total": 7,
+        "natural": 6,
+        "is_critical": false,
+        "is_critical_failure": false,
+        "dc": 15,
+        "success": false,
+        "is_critical_success": false
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:09:31.238046",
+      "action": "initiative_roll",
+      "details": {
+        "Zara": {
+          "initiative": 16,
+          "roll": 15,
+          "modifier": 1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:20:29.201660",
+      "action": "roll_ability_scores",
+      "details": {
+        "method": "4d6_drop_lowest",
+        "scores": {
+          "STR": 15,
+          "DEX": 9,
+          "CON": 15,
+          "INT": 6,
+          "WIS": 10,
+          "CHA": 13
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:20:29.203125",
+      "action": "create_character",
+      "details": {
+        "name": "Lyra",
+        "class": "Wizard",
+        "race": "Elf"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:21:39.887936",
+      "action": "roll_ability_scores",
+      "details": {
+        "method": "4d6_drop_lowest",
+        "scores": {
+          "STR": 10,
+          "DEX": 14,
+          "CON": 7,
+          "INT": 13,
+          "WIS": 9,
+          "CHA": 17
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:21:39.889936",
+      "action": "create_character",
+      "details": {
+        "name": "Gorbag",
+        "class": "Barbarian",
+        "race": "Half-Orc"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:21:40.221048",
+      "action": "roll_ability_scores",
+      "details": {
+        "method": "4d6_drop_lowest",
+        "scores": {
+          "STR": 14,
+          "DEX": 13,
+          "CON": 10,
+          "INT": 13,
+          "WIS": 10,
+          "CHA": 17
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:22:41.900964",
+      "action": "roll_ability_scores",
+      "details": {
+        "method": "4d6_drop_lowest",
+        "scores": {
+          "STR": 13,
+          "DEX": 12,
+          "CON": 11,
+          "INT": 12,
+          "WIS": 14,
+          "CHA": 17
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:22:41.902498",
+      "action": "create_character",
+      "details": {
+        "name": "Elara",
+        "class": "Cleric",
+        "race": "Human"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:22:42.157479",
+      "action": "roll_ability_scores",
+      "details": {
+        "method": "4d6_drop_lowest",
+        "scores": {
+          "STR": 9,
+          "DEX": 10,
+          "CON": 13,
+          "INT": 11,
+          "WIS": 14,
+          "CHA": 17
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:24:07.618906",
+      "action": "roll_ability_scores",
+      "details": {
+        "method": "4d6_drop_lowest",
+        "scores": {
+          "STR": 16,
+          "DEX": 11,
+          "CON": 15,
+          "INT": 8,
+          "WIS": 12,
+          "CHA": 10
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:24:07.620908",
+      "action": "create_character",
+      "details": {
+        "name": "Valkyrie",
+        "class": "Cleric",
+        "race": "Half-Elf"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:24:29.345391",
+      "action": "roll_ability_scores",
+      "details": {
+        "method": "4d6_drop_lowest",
+        "scores": {
+          "STR": 10,
+          "DEX": 12,
+          "CON": 12,
+          "INT": 18,
+          "WIS": 5,
+          "CHA": 13
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:24:29.348432",
+      "action": "create_character",
+      "details": {
+        "name": "Archon",
+        "class": "Wizard",
+        "race": "Human"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:24:29.690852",
+      "action": "roll_ability_scores",
+      "details": {
+        "method": "4d6_drop_lowest",
+        "scores": {
+          "STR": 13,
+          "DEX": 14,
+          "CON": 16,
+          "INT": 12,
+          "WIS": 12,
+          "CHA": 12
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:24:29.694823",
+      "action": "create_character",
+      "details": {
+        "name": "Giga",
+        "class": "Barbarian",
+        "race": "Dragonborn"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:24:30.064257",
+      "action": "roll_ability_scores",
+      "details": {
+        "method": "4d6_drop_lowest",
+        "scores": {
+          "STR": 17,
+          "DEX": 9,
+          "CON": 13,
+          "INT": 15,
+          "WIS": 12,
+          "CHA": 17
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:24:30.068372",
+      "action": "create_character",
+      "details": {
+        "name": "Elder",
+        "class": "Wizard",
+        "race": "Elf"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:26:59.602293",
+      "action": "roll_ability_scores",
+      "details": {
+        "method": "4d6_drop_lowest",
+        "scores": {
+          "STR": 10,
+          "DEX": 15,
+          "CON": 11,
+          "INT": 13,
+          "WIS": 16,
+          "CHA": 13
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:26:59.607462",
+      "action": "create_character",
+      "details": {
+        "name": "Zara Nightwhisper",
+        "class": "Rogue",
+        "race": "Half-Elf"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:26:59.612082",
+      "action": "ability_check",
+      "details": {
+        "character": "Zara Nightwhisper",
+        "ability": "WIS",
+        "skill": "perception",
+        "roll": 14,
+        "natural": 14,
+        "modifier": 3,
+        "total": 17,
+        "is_advantage": false,
+        "is_disadvantage": false,
+        "is_critical": false,
+        "is_critical_failure": false,
+        "breakdown": "d20 (14) + 3 = 17"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:26:59.617277",
+      "action": "ability_check",
+      "details": {
+        "character": "Zara Nightwhisper",
+        "ability": "DEX",
+        "skill": "stealth",
+        "roll": 17,
+        "natural": 17,
+        "modifier": 2,
+        "total": 19,
+        "is_advantage": true,
+        "is_disadvantage": false,
+        "is_critical": false,
+        "is_critical_failure": false,
+        "breakdown": "d20(p)(17) + +2 = 19"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:26:59.620748",
+      "action": "ability_check",
+      "details": {
+        "character": "Zara Nightwhisper",
+        "ability": "DEX",
+        "skill": "sleight_of_hand",
+        "roll": 1,
+        "natural": 1,
+        "modifier": 2,
+        "total": 3,
+        "is_advantage": false,
+        "is_disadvantage": false,
+        "is_critical": false,
+        "is_critical_failure": true,
+        "breakdown": "d20 (1) + 2 = 3"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:26:59.624714",
+      "action": "ability_check",
+      "details": {
+        "character": "Zara Nightwhisper",
+        "ability": "INT",
+        "skill": "investigation",
+        "roll": 13,
+        "natural": 13,
+        "modifier": 1,
+        "total": 14,
+        "is_advantage": false,
+        "is_disadvantage": false,
+        "is_critical": false,
+        "is_critical_failure": false,
+        "breakdown": "d20 (13) + 1 = 14"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:29:54.338851",
+      "action": "create_character",
+      "details": {
+        "name": "Zara Swiftfoot",
+        "class": "Rogue",
+        "race": "Human"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:32:12.564356",
+      "action": "create_character",
+      "details": {
+        "name": "Zara",
+        "class": "Rogue",
+        "race": "Human"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:32:12.805104",
+      "action": "ability_check",
+      "details": {
+        "character": "Zara",
+        "ability": "DEX",
+        "skill": "stealth",
+        "roll": 7,
+        "natural": 7,
+        "modifier": 3,
+        "total": 10,
+        "is_advantage": false,
+        "is_disadvantage": false,
+        "is_critical": false,
+        "is_critical_failure": false,
+        "breakdown": "d20 (7) + 3 = 10"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:32:12.810848",
+      "action": "ability_check",
+      "details": {
+        "character": "Zara",
+        "ability": "DEX",
+        "skill": "stealth",
+        "roll": 17,
+        "natural": 17,
+        "modifier": 3,
+        "total": 20,
+        "is_advantage": false,
+        "is_disadvantage": false,
+        "is_critical": false,
+        "is_critical_failure": false,
+        "breakdown": "d20 (17) + 3 = 20"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:32:39.337518",
+      "action": "create_character",
+      "details": {
+        "name": "Zara Nightwhisper",
+        "class": "Rogue",
+        "race": "Half-Elf"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:32:39.343109",
+      "action": "create_character",
+      "details": {
+        "name": "Thrain Ironforge",
+        "class": "Fighter",
+        "race": "Dwarf"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:32:39.347339",
+      "action": "initiative_roll",
+      "details": {
+        "Zara Nightwhisper": {
+          "initiative": 18,
+          "roll": 19,
+          "modifier": -1
+        },
+        "Thrain Ironforge": {
+          "initiative": 13,
+          "roll": 11,
+          "modifier": 2
+        },
+        "order": {
+          "order": [
+            [
+              "Zara Nightwhisper",
+              18,
+              19
+            ],
+            [
+              "Thrain Ironforge",
+              13,
+              11
+            ]
+          ],
+          "current": "Zara Nightwhisper"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:32:39.582246",
+      "action": "ability_check",
+      "details": {
+        "character": "Zara Nightwhisper",
+        "ability": "DEX",
+        "skill": "stealth",
+        "roll": 18,
+        "natural": 18,
+        "modifier": -1,
+        "total": 17,
+        "is_advantage": false,
+        "is_disadvantage": false,
+        "is_critical": false,
+        "is_critical_failure": false,
+        "breakdown": "d20 (18) + -1 = 17"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:32:39.589159",
+      "action": "saving_throw",
+      "details": {
+        "roll": 20,
+        "rolls": [
+          20
+        ],
+        "ability": "str",
+        "modifier": -2,
+        "total": 18,
+        "natural": 20,
+        "is_critical": true,
+        "is_critical_failure": false,
+        "dc": 15,
+        "success": true,
+        "is_critical_success": true
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:36:07.503810",
+      "action": "create_character",
+      "details": {
+        "name": "Zara Nightwhisper",
+        "class": "Rogue",
+        "race": "Half-Elf"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:36:07.506181",
+      "action": "create_character",
+      "details": {
+        "name": "Thrain Ironforge",
+        "class": "Cleric",
+        "race": "Dwarf"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:36:07.507823",
+      "action": "ability_check",
+      "details": {
+        "character": "Zara Nightwhisper",
+        "ability": "WIS",
+        "skill": "perception",
+        "roll": 1,
+        "natural": 1,
+        "modifier": 0,
+        "total": 1,
+        "is_advantage": false,
+        "is_disadvantage": false,
+        "is_critical": false,
+        "is_critical_failure": true,
+        "breakdown": "d20 (1) + 0 = 1"
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:36:07.508948",
+      "action": "saving_throw",
+      "details": {
+        "roll": 19,
+        "rolls": [
+          19
+        ],
+        "ability": "dex",
+        "modifier": 2,
+        "total": 21,
+        "natural": 19,
+        "is_critical": false,
+        "is_critical_failure": false,
+        "dc": 14,
+        "success": true,
+        "is_critical_success": false
+      }
+    },
+    {
+      "timestamp": "2026-08-07T14:36:07.509956",
+      "action": "initiative_roll",
+      "details": {
+        "Zara Nightwhisper": {
+          "initiative": 17,
+          "roll": 15,
+          "modifier": 2
+        },
+        "Thrain Ironforge": {
+          "initiative": 18,
+          "roll": 19,
+          "modifier": -1
+        },
+        "order": {
+          "order": [
+            [
+              "Thrain Ironforge",
+              18,
+              19
+            ],
+            [
+              "Zara Nightwhisper",
+              17,
+              15
+            ]
+          ],
+          "current": "Thrain Ironforge"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-07T15:05:09.316339",
+      "action": "roll_ability_scores",
+      "details": {
+        "method": "4d6_drop_lowest",
+        "scores": {
+          "STR": 14,
+          "DEX": 17,
+          "CON": 14,
+          "INT": 17,
+          "WIS": 15,
+          "CHA": 9
+        }
+      }
+    }
+  ]
+}
