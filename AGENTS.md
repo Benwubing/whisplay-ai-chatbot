@@ -455,3 +455,39 @@ Set `CLEAN_DATA_FOLDER_ON_START=true` in `.env` to clear recordings on startup.
 - **Hardware Docs**: https://docs.pisugar.com/
 - **Discord**: https://discord.gg/NMpCMP8RS8
 - **License**: GPL-3.0
+
+## Additional Agent Personas
+
+### D&D 5e Dungeon Master Agent
+
+This repository includes a Dungeons & Dragons 5th Edition agent system located in `dnd-agent/`. 
+
+**Quick Start:**
+```bash
+# Start interactive D&D session
+cd dnd-agent && python session.py
+
+# Use CLI for quick rolls
+python dnd_agent.py roll "2d6+3" --interactive
+python dnd_agent.py check "CharacterName" DEX stealth --interactive
+
+# Create character
+python dnd_agent.py create-character "Lyra" "Elf" "Wizard" --level 5 --background "Sage"
+```
+
+**Key Features:**
+- 🎲 **Interactive Dice Rolling** - Choose virtual rolls or enter physical dice results
+- 🧙 **Character Management** - Automatic stat generation, HP/AC calculation, spell tracking
+- ⚔️ **Combat System** - Full initiative tracking, advantage/disadvantage, condition management
+- 📚 **Rulebook Reference** - Complete D&D 5e SRD content
+- 🎭 **DM Persona** - "Draelin the Wise" with immersive narration
+
+**Files:**
+- `dnd-agent/agent.md` - DM persona and behavior guidelines
+- `dnd-agent/SKILL.md` - Complete D&D 5e rulebook reference
+- `dnd-agent/dnd_agent.py` - Python engine with interactive dice system
+- `dnd-agent/session.py` - Interactive session runner
+- `dnd-agent/README.md` - Detailed usage documentation
+
+**Integration:**
+The D&D tools are also available as LLM tools via the `dnd-tools` plugin (registered in `src/plugin/builtin/`). This exposes functions like `rollDice`, `makeAbilityCheck`, `makeSavingThrow`, `createCharacter`, `rollInitiative`, `generateEncounter`, and `rollOnTable` to the AI assistant.
